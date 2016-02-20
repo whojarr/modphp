@@ -1,0 +1,573 @@
+
+TABLE TR TD	 { 
+	font: 10px Tahoma, Verdana, sans-serif; 
+}
+
+
+BUTTON, INPUT, SELECT { font: 10px Tahoma, Verdana, sans-serif; }
+
+BUTTON { display: inline; }
+
+.about {
+	position:relative;
+	top:60px;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.about A,.about A:hover..about A:link, .about A:visited{
+	color:blue;
+}
+
+
+
+h1, h2 {
+    font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	font-size: 100%;
+}
+
+div.odd {
+	background: #FFFFFF;
+}
+
+div.even {
+	background: #E9E9E9;
+}
+
+th {
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+tr.odd {
+	background:: #FFFFFF;
+}
+
+tr.even {
+	background: #E9E9E9;
+}
+
+td			{
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #000000
+}
+td.tablehead	{  
+	font-family: sans-serif;
+	font-size: small;
+	color: #FFFFFF;
+	text-decoration:none; 
+}
+
+td.navhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+// class nav - navigation menus (sidebar?)
+a:active {
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:none;
+}
+a		{	
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:none;
+}
+a:hover	{
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:underline;
+
+}
+a.selected {
+	color: red;
+}
+
+a.navheadselect {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #002377;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navheadselect:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navheadselect:active {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 10px;
+	color: #002377;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navhead:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navhead:active {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navsub {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navsub:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navsub:active {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navsubsel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navsubsel:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.navsubsel:active {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+/* some other random classes  * * * * * * * * * * * * * * * * * * * */
+.intro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFFFFF
+}
+
+.bodyorange {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #ff9933
+}
+
+.intranet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+a.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.heading:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.heading:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+
+.navhead {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.headtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.bodytext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.bodytextsm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #204c89;
+}
+.majorhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #6699CC;
+}
+.formheads {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+.heading1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #204c89;
+	font-weight: bold;
+}
+
+.bighead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	color: #6699CC;
+	font-weight: bold;
+}
+
+.groupBorder {
+	background: #fff;
+	border: 1px solid #666666;
+}
+
+.groupHeader {
+	background: #999999;
+	color: #ffffff;
+	padding: 3px;
+}
+
+.groupDescription {
+	background: #e9e9e9;
+	border-bottom: 1px solid #cccccc;
+	padding: 7px;
+}
+
+
+
+.toolBar { 
+	height: 22px; 
+	background-image: url("gfx/bg_toolbar.jpg"); 
+	background-repeat: repeat-x;
+	background-color: ButtonFace; 
+	border: 1px outset ActiveBorder;
+}
+
+.toolBar button {
+	height: 22px;
+	background-color: transparent; 
+	border: 1px solid white;
+}
+
+.toolBarButtonInactive {
+	color:silver;
+}
+
+
+.toolBtnActive {
+	border: 1px solid Highlight !important;
+}
+
+.toolBtnActiveSafari {
+	border: 1px solid #3063B0 !important;
+}
+
+.toolBar img { 
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+#tabBar TD {
+	border-style: outset; 
+	border-color: ButtonHighlight;
+	vertical-align: top;
+	padding: 3px 6px 3px 6px;
+	margin: 0px;
+	white-space: pre;
+	white-space: nowrap;
+}
+
+.tabSelected {
+	background-color: ButtonFace;
+	border-width: 2px 2px 0px 2px;
+}
+
+.tabUnselected {
+	background-color: ButtonFace;
+	border-width: 2px 2px 2px 2px; 
+	border-bottom-style: inset !important;
+	cursor: pointer;
+}
+
+.tabNone {
+	border-width: 0px 0px 2px 0px; 
+	border-style: inset !important;
+	width:100%;
+	
+}
+
+.tabArea  { 
+	overflow: hidden;
+	background-color: ButtonFace;
+	border-width: 0px 2px 2px 2px; 
+	border-style: outset; 
+	border-color: ButtonHighlight;
+	padding: 6px;
+}
+
+.itemListTable {
+	border: 0px none;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+}
+
+.itemListTable TD, 
+.itemListTable TH {
+	border-bottom-width: 1px; 
+	border-bottom-style: outset; 
+	border-color: ButtonFace;
+	empty-cells: show;
+	padding: 2px 6px;
+}
+
+.popupMenu {
+    border: 2px outset white;
+    padding: 0px;
+    background-color: Menu;
+    z-index: 1;
+	cursor: default;
+}
+
+.popupMenu DIV {
+    font-family: Tahoma, Verdana;
+    font-size: 10px;
+	line-height: 16px;
+    border: 0px none;
+    padding: 0px 18px;
+    background-color: Menu;
+}
+
+.popupMenu HR {
+    height: 2px;
+    margin: 0px;
+    padding: 0px 10px;
+    background-color: Menu;
+    border: inset 1px Menu;
+}
+
+.icon {
+	border: 0px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.selectedRow {
+    background-color: Highlight !important;
+    color: HighlightText;
+}
+
+.selectedRowSafari {
+    background-color: #3063B0 !important;
+    color: HighlightText;
+}
+
+.normalRow {
+    background-color: inherit;
+    color: inherit;
+} 
+
+.tableframe {
+	border: 1px solid black;
+	background-color:white;
+	color:black;
+	padding:0px;
+}
+
+.tablehead {
+	background-color: ActiveBorder;
+}
+
+.msgListCol16 {
+    display: table-cell;
+	white-space: nowrap;
+	width:16px;
+}
+
+#lableDiv{
+	border:1px solid black;
+	width:175px;
+	position: absolute;
+	padding: 2px;
+	background-color:white;
+	z-index:1;
+	border:1px solid black;
+	cursor:pointer;
+	display:none;
+}
+
+
+
+.calendarLabelCell{
+	empty-cells:show;
+	width:10px;
+	height:10px; 
+	border:1px solid black; 
+	font-size: 6px;
+}
+
+#lableDivResult{
+	width:165px;
+	xborder:1px solid #3E9ADE;
+	border-top:5px solid #3E9ADE;
+	background-color:white;
+	height:18px;
+}
+
+#progressDiv{
+	text-align:center;
+	vertical-align:bottom;
+	position:absolute;
+	z-index:1;
+	left:25%;
+	top:55%;
+	padding:10px;
+	background-color:#e6e6e6;
+	border:1px solid black; 
+	width:50%;
+	display:none;
+}
+
+/********** reminder window ********/
+
+table.reminder {
+	table-layout:fixed;
+}
+
+table.reminder tr td{
+	text-align:left;
+}
+
+table.reminder	#captionText{
+	font-weight:bold;
+}
+		
+		
+table.reminder tr td.timeCell {
+	padding-left:60px;
+}
+
+table.reminder tr td.contentCell{
+	text-align:center;
+}
+
+table.reminder tr td div.contentDiv{
+	border:1px solid black;
+	width:99%;
+	height:110px;
+	overflow:auto;
+	overflow-x:hidden;
+	background-color:white;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+table.reminderContent {
+	width:100%;
+	table-layout:fixed;
+	
+	
+}
+
+
+table.reminderContent tr.headRow{
+	background-color:silver;
+}
+
+table.reminderContent tr td{
+	padding-left:5px;
+}
+
+.reminderButton{
+	width:100px;
+	display:inline;
+}

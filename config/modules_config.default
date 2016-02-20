@@ -1,0 +1,14 @@
+[global]
+
+gstrate = "0.125"
+
+[mailserver]
+
+modules_mailserver = "localhost"
+
+[database]
+
+db_database = "webhavenx"
+db_host = "localhost";
+db_user = "webuser";
+db_password = "";
